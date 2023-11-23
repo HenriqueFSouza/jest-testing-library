@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Header from './components/Header'
+import { ToDoProvider } from '@/contexts/todo-context'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,8 +17,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={inter.className}>
+      <ToDoProvider>
+        <body className="bg-[#011F33]">
+          <Header />
+          <div className="mx-auto bg-[#011F33] min-h-full w-full max-w-[900px] ">
+            {children}
+          </div>
+        </body>
+      </ToDoProvider>
     </html>
   )
 }
