@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Next ToDo Project</h1>
 
-## Getting Started
+👉🏾 Check out the project on production: #######################
 
-First, run the development server:
+![image](https://github.com/HenriqueFSouza/jest-testing-library/public/todos-print.jpg)
+
+## ❔ What is the Next ToDo Project for?
+
+This is a simple ToDo project just for running Unit Tests with Jest and Testing Library.
+
+## Main features
+
+➕ Creating new ToDos
+The users can create new ToDos to manage their routines or daily bases at work. Toggling the tasks completed or not
+
+🗄️ Saving ToDos list:
+Even without a login structure the users can refresh or leave the page and not lose the ToDos list.
+All the ToDos data is saved in the Local Storage of the browser 
+
+
+## :closed_book: How to use it?
+
+Before starting, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone this project
+$ git clone https://github.com/HenriqueFSouza/code-burguer-interface.git
+
+# access
+$ cd trips-app
+
+# install dependencies
+$ yarn or npm
+
+# Run the project
+$ yarn dev or npm run dev
+
+# The server will initialize in the <http://localhost:3000>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## To run the tests locally after cloning the repo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Run the jest script
+$ yarn or npm jest
+```
 
-## Learn More
+## You should be able to see something similar to this image
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://github.com/HenriqueFSouza/jest-testing-library/public/tests-print.jpg)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🚀 Technologies
+- [Nextjs](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Jest](https://jestjs.io/)
+- [TestingLibrary](https://testing-library.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🤝 Collaborators
+
+Thanks to the following people who contributed to this project:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/93978780?v=4" width="160px;" alt="Photo by Henrique Francisco on GitHub"/><br>
+        <sub>
+          <b>Henrique Francisco</b>
+        </sub>
+      </a>
+    </all>
+  </tr>
+</table>
