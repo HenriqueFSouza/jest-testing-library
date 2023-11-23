@@ -1,8 +1,6 @@
 <h1>Next ToDo Project</h1>
 
-👉🏾 Check out the project on production: #######################
-
-![image](https://github.com/HenriqueFSouza/jest-testing-library/public/todos-print.jpg)
+![image](https://github.com/HenriqueFSouza/jest-testing-library/blob/master/public/todos-print.jpg)
 
 ## ❔ What is the Next ToDo Project for?
 
@@ -24,10 +22,10 @@ Before starting, you need to have [Git](https://git-scm.com) and [Node](https://
 
 ```bash
 # Clone this project
-$ git clone https://github.com/HenriqueFSouza/code-burguer-interface.git
+$ git clone https://github.com/HenriqueFSouza/jest-testing-library.git
 
 # access
-$ cd trips-app
+$ cd jest-testing-library
 
 # install dependencies
 $ yarn or npm
@@ -48,7 +46,7 @@ $ yarn or npm jest
 
 ## You should be able to see something similar to this image
 
-![image](https://github.com/HenriqueFSouza/jest-testing-library/public/tests-print.jpg)
+![image](https://github.com/HenriqueFSouza/jest-testing-library/blob/master/public/tests-print.jpg)
 
 
 
