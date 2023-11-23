@@ -31,8 +31,8 @@ export default function AddTodo() {
 
       <button
         type="button"
-        className="bg-[#257db8] rounded-lg px-6 w-[30%] text-white hover:opacity-90"
-        disabled={!todoTitle}
+        className="bg-[#257db8] rounded-lg px-6 w-[30%] text-white hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed"
+        disabled={!todoTitle || todoTitle === ''}
         onClick={handleAddNewToDo}
       >
         Add new <strong>ToDo</strong>
