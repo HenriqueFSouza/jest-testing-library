@@ -1,7 +1,5 @@
 <h1>Next ToDo Project</h1>
 
-👉🏾 Check out the project on production: #######################
-
 ![image](https://github.com/HenriqueFSouza/jest-testing-library/blob/master/public/todos-print.jpg)
 
 ## ❔ What is the Next ToDo Project for?
